@@ -48,6 +48,15 @@ nav li a{
 .dark-2{
     color: #474747;
 }
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
 /* Banar style */
 .banar{
     display: flex;
@@ -60,11 +69,13 @@ nav li a{
 .banar-greeting{
     font-size: 45px;
     font-weight: 600;
+    margin-bottom: 5px;
 }
 .banar-title{
      font-size: 85px;
     font-weight: 700;
     color: #181818;
+    margin: 5px 0 20px;
 }
 .banar-discription{
     font-size: 18px;
