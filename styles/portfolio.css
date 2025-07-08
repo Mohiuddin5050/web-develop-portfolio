@@ -5,10 +5,26 @@
   font-variation-settings:
     "wdth" 100;
 }
-
+.btn-primary{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 5px;
+}
+.header{
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
 /* nav styles */
 nav{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
 }
 .text-primary{
     color: #FD6E0A;
@@ -16,4 +32,44 @@ nav{
 .nav-title{
     font-weight: 800;
     font-size: 45px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.dark-2{
+    color: #474747;
+}
+/* Banar style */
+.banar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 38px 0 230px;
+}
+.banar-content{
+    max-width: 580px;
+}
+.banar-greeting{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banar-title{
+     font-size: 85px;
+    font-weight: 700;
+    color: #181818;
+}
+.banar-discription{
+    font-size: 18px;
+    color: #757575;
+}
+.banar-portfolio-pic{
+    width: 580px;
 }
